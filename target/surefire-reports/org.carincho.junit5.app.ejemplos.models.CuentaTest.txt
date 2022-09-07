@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: org.carincho.junit5.app.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 72, Failures: 12, Errors: 0, Skipped: 8, Time elapsed: 5.893 s <<< FAILURE! - in org.carincho.junit5.app.ejemplos.models.CuentaTest
+testDebitoCuentaParametrizadoMethodSource{String}[6]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest.testDebitoCuentaParametrizadoMethodSource(CuentaTest.java:417)
+
+testDebitoCuentaParametrizadoCsvSource{String, String}[6]  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoCsvSource(CuentaTest.java:443)
+
+testDebitoCuentaParametrizadoFileCsvSource{String}[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoFileCsvSource(CuentaTest.java:455)
+
+testDebitoCuentaParametrizadoValueSource{String}[6]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoValueSource(CuentaTest.java:430)
+
+testDebitoCuentaParametrizadoFileCsvSource2{String, String, String, String}[2]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <carincho men> but was: <Carincho>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoFileCsvSource2(CuentaTest.java:491)
+
+testDebitoCuentaParametrizadoFileCsvSource2{String, String, String, String}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoFileCsvSource2(CuentaTest.java:492)
+
+testDebitoCuentaParametrizadoFileCsvSource2{String, String, String, String}[5]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <memo> but was: <Memo>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoFileCsvSource2(CuentaTest.java:491)
+
+testDebitoCuentaParametrizadoFileCsvSource2{String, String, String, String}[6]  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoFileCsvSource2(CuentaTest.java:492)
+
+testDebitoCuentaParametrizadoCsvSource2{String, String, String, String}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <carincho men> but was: <Carincho>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoCsvSource2(CuentaTest.java:474)
+
+testDebitoCuentaParametrizadoCsvSource2{String, String, String, String}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoCsvSource2(CuentaTest.java:475)
+
+testDebitoCuentaParametrizadoCsvSource2{String, String, String, String}[5]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <memo> but was: <Memo>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoCsvSource2(CuentaTest.java:474)
+
+testDebitoCuentaParametrizadoCsvSource2{String, String, String, String}[6]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.carincho.junit5.app.ejemplos.models.CuentaTest$PruebasParametrizadasTest.testDebitoCuentaParametrizadoCsvSource2(CuentaTest.java:475)
+
